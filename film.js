@@ -169,7 +169,6 @@ const daysFormat = (interval) => {
 fixedDate.innerHTML = 
 `<p>Premiéra <strong> ${datumFormat} </strong>, což ${vypocetDni(interval)}${daysFormat(interval)}.</p>`
 
-
 const elmForm = document.getElementById("note-form")
 elmForm.addEventListener("submit", (e) => {
 	e.preventDefault()

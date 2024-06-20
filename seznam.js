@@ -118,6 +118,7 @@ const filmy = [
 	},
 ]
 
+
 const elmSeznam = document.getElementById("seznam-filmu")
 elmSeznam.innerHTML = ""
 
